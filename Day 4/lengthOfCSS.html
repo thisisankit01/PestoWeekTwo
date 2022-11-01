@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #px{
+      width: 100px;
+      height: 20px;
+      background-color: aqua;
+    }
+    #px div{
+      width: 50%;
+      height: 20px;
+      background-color: blue;
+    }
+    #in{
+      width: 1in;
+      height: 20px;
+      background-color: rgb(15, 125, 75);
+    }
+    #cm{
+      width: 1cm;
+      height: 20px;
+      background-color: rgb(150, 64, 153);
+    }
+    #vw{
+      width: 1vw;
+      height: 20px;
+      background-color: yellow;
+    }
+    body{
+      font-size: 32px;
+    }
+    p{
+      font-size: 1.5em;  
+      /* copies the size of parent */
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="px">
+    <div></div>
+  </div>
+  <div id="in"></div>
+  <div id="cm"></div>
+  <div id="vw"></div>
+
+  <p>This is a paragraph</p>
+  <div id="result"></div>
+
+  <script src="lengthOfCSS.js"></script>
+  
+</body>
+</html>
