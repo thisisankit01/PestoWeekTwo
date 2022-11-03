@@ -8,9 +8,11 @@
   <style>
     div[class]{
       background-color: blueviolet;
+      /* div contains any class */
     }
     span[title="abcd"]{
       background-color: green;
+      /* span with title abcd */
     }
     .inner{
       background:red;
@@ -18,14 +20,21 @@
     .outer{
       color: rgb(192, 89, 89);
     }
+    div [class *= "nn"]{
+      background-color: aquamarine;
+      /* matches with class whose name have substring "nn" */
+    }
     div[class ~= outer]{
       background-color: green;
+      /* overwrites the property of outer class */
     }
     *[class^= i]{
       background-color: black;
+      /* matches with class whose name starts with i */
     }
     *[class $= "er"]{
       background-color: brown;
+      /* matches with class whose name ends with i */
     }
     
   </style>
