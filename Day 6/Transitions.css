@@ -1,0 +1,27 @@
+#app{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition-property: width, background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease-out;
+}
+#app:hover{
+  background-color: blue;
+  width: 500px;
+}
+  
+   #app2{
+      width: 100px;
+      height: 100px;
+      margin-top: 20px;
+      background-color: aqua;
+      transition-property: transform;
+      transition-duration: 2s;
+      transition-timing-function: ease;
+    }
+    #app2:hover{
+      transform: rotate(90deg);
+    }
+
+    
